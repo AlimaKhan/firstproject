@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_large.jpg);
+    height: 99vh;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat no-repeat;
+    background-size: max(1500px, 100vw);
+}
+
+.main .box {
+    height: 99vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    color: red;
+    width: 110px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.hero> :first-child {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-family: sans-serif;
+    font-weight: 35px;
+    font: size 20px;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 20px;
+
+}
+
+.hero :nth-child(3) {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seperation {
+    height: 20px;
+    max-width: fit-content;
+    position: relative;
+    z-index: 1;
+
+}
+
+.btn {
+    padding: 5px 50px 5px 15px;
+    font-weight: lighter;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.main input {
+    padding: 15px 100px 15px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-size: medium;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgb(151, 149, 149);
+    color: rgb(185, 180, 180);
+}
+
+.btn-red-l {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px 5px 8px;
+    margin: 3px;
+}
+
+.container {
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.btn-left {
+    padding: 5px 20px 5px 15px;
+    font-weight: lighter;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(163, 160, 160);
+    margin: 15px 10px 10px 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 90vw;
+    align-content: space-between;
+    padding-top: 20px;
+}
+
+.box img {
+    display: block;
+    border-radius: 5px;
+    width: 80%;
+    transition: 0.1s ease-in-out;
+}
+
+.box :hover {
+    transform: scale(1.1);
+    z-index: 1.2;
+}
+
+.middle {
+    color: white;
+    margin: 5% auto;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.card {
+    width: 285px;
+    height: 250px;
+    background-color: rgba(59, 2, 71, 0.541);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: text;
+
+}
+
+.card .content {
+    padding: 30px 35px;
+    gap: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+
+.lineup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv {
+    padding: 70px 80px;
+    margin-left: 42%;
+}
+
+.arrow {
+    padding: 28px;
+    margin-left: 70%;
+}
+
+.light {
+    padding: 70px 170px;
+}
+
+.smile {
+    padding: 1px 214px;
+}
+
+.content>p {
+    font-size: small;
+    padding-top: 20px;
+    color: rgb(182, 176, 176);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq h2 {
+    color: white;
+    margin-left: 10%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.faqbox {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgba(68, 67, 67, 0.616);
+    max-width: 70vw;
+    margin: 8px;
+    margin-left: 10%;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+.faqbox:hover {
+    opacity: 1;
+    background-color: rgb(90, 89, 89);
+}
+.last .ready{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.last input{
+    padding: 15px 300px 15px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-size: medium;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgb(151, 149, 149);
+    color: rgb(185, 180, 180);
+    margin-right: 10px;
+}
+.last-btn{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: 50px 20px 20px 200px;
+    padding:30px 1px ;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+ a.faq{
+    color: white;
+ }
